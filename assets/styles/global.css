@@ -6,7 +6,6 @@ header {
     background: #2E948A;
     display: flex;
     justify-content: center;
-
 }
 
 header h2 {
@@ -32,6 +31,7 @@ header nav ul {
     height: 100%;
     margin: 0 0 20px;
     padding: 0;
+    text-transform: uppercase;
 }
 
 header nav ul li {
@@ -59,6 +59,7 @@ footer h2 a {
     background: url('../styles/imagens/logo-footer.png') 0 0 no-repeat;
     width: 312px;
     height: 102px;
+    margin: 49px;
 }
 
 footer ul {
@@ -108,7 +109,7 @@ footer a {
     .container {
         width: 460px;
         flex-wrap: wrap;
-        flex-direction: column;
+        flex-direction: column; 
         align-items: center;  
     }
 }
