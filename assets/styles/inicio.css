@@ -1,3 +1,207 @@
-main {
-    padding-top: 250px;
+main * {
+    /* border: solid 1px; */
+    margin: 0;
 }
+
+/* .top-section {
+    display: none !important;
+} */
+
+.illustra-banner {
+    height: 512px;
+    width: 501px;
+    background-image: url('../styles/imagens/ilustra-banner.png');
+    margin-bottom: 25px;
+}
+
+.top-section {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 100px auto;
+}
+
+.conteudo-banner h1 {
+    font-size: 60px;
+    font-weight: 700;
+    color: #FF4081;
+    max-width: 360px;
+    margin-bottom: 38px;
+    line-height: 69px;
+}
+
+.conteudo-banner h5 {
+    font-size: 27px;
+    font-weight: 400;
+    color: #555555;
+    max-width: 360px;
+    margin-bottom: 38px;
+    line-height: 31px;
+}
+
+.conteudo-banner a {
+    font-size: 27px;
+    font-weight: 400;
+    display: block;
+    line-height: 31px;
+    color: #FF4081;
+    text-decoration: none;
+    text-transform: lowercase;
+    border: 2px solid #FF4081;
+    box-sizing: border-box;
+    border-radius: 62px;
+    width: 268px;
+    text-align: center;
+    padding: 10px;
+}
+
+.mid-section article {
+    padding: 90px   ;
+    text-align: center;
+    width: 344px;
+    align-items: center;
+}
+
+.mid-section h5 {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 29px;
+    color: #FF4081;
+    margin: 0 0 25px;
+}
+
+.mid-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #F6F6F6;
+    padding: 5% 8% 5% 8%;
+}
+
+.mid-section .inline-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 344px;
+    margin: 0 30px 60px 30px;
+} 
+
+.mid-section .inline-box div {
+    height: 270px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    margin: 0 0 45px;
+}
+
+.mid-section .inline-box p {
+    display: block;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 300;
+    color: #000000;
+    margin: 0 0 26px;
+}
+
+.mid-section .inline-box a {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    text-decoration: none;
+    text-align: center;
+    color: #F6F6F6;
+    border-radius: 62px;
+    width: 233px;
+    height: 41px;
+    background-color: #FF4081;
+    padding-top: 15px;
+}
+
+.image3 {
+    background: url('../styles/imagens/ilustra-poupando.png');
+    height: 270px;
+    width: 100%;
+    padding: 55px 55px 59px 95%;
+}
+
+.image2 {
+    background: url('../styles/imagens/ilustra-investimento.png');
+    height: 270px;
+    width: 100%;
+    padding: 55px 55px 61px 95%;
+}
+
+.image4 {
+    background: url('../styles/imagens/ilustra-independencia.png');
+    max-height: 270px;
+    max-width: 50%;
+    padding: 55px 55px 45% 95%;
+}
+
+
+
+.bottom-section {
+    justify-content: space-evenly;
+    padding: 5% 8% 5% 8%;
+    margin: 0 0 90px;
+    max-width: 100%;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.bottom-title {
+    font-family: 'Nunito', sans-serif;
+    font-size: 37px;
+    font-weight: 700;
+    color: #009688;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 100px 100px auto;
+    padding: 10px 120px;
+    left: 128px;
+} 
+
+.inline-text {
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 344px;
+    margin: 60px 30px 10px 30px;
+}
+
+.inline-text p {
+    font-family: 'Nunito';
+    font-size: 18px;
+    font-weight: 300;
+    width: 363px;
+    height: 70px;
+    margin-bottom: 0;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.inline-text span {
+    text-align: left;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.inline-text img {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 25px;
+    float: left;
+}
+
+.bottom {
+    background: #F6F6F6;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 100px auto;
+}
+

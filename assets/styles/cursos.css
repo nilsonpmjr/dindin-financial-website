@@ -1,0 +1,36 @@
+main * {
+    /* border: solid 1px; */
+    margin: 0;
+}
+
+/* .top-section {
+    display: none !important;
+} */
+
+.cabecalho {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.cabecalho h1 {
+    font-size: 60px;
+    font-weight: 700;
+    color: #FF4081;
+    width: 488px;
+    margin-bottom: 11px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cabecalho h6 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #555555;
+    width: 317px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
