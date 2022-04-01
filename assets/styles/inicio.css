@@ -142,7 +142,7 @@ main * {
 
 
 .bottom-section {
-    justify-content: space-evenly;
+    justify-content: center;
     padding: 5% 8% 5% 8%;
     margin: 0 0 90px;
     max-width: 100%;
@@ -163,6 +163,7 @@ main * {
     margin: 100px 100px auto;
     padding: 10px 120px;
     left: 128px;
+    line-height: 50px;
 } 
 
 .inline-text {
@@ -176,7 +177,7 @@ main * {
     font-family: 'Nunito';
     font-size: 18px;
     font-weight: 300;
-    width: 363px;
+    width: 495px;
     height: 70px;
     margin-bottom: 0;
     text-align: left;
@@ -193,7 +194,7 @@ main * {
 .inline-text img {
     display: flex;
     flex-wrap: wrap;
-    margin: 25px;
+    margin-right: 28px;
     float: left;
 }
 
