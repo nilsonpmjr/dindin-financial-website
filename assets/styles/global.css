@@ -92,7 +92,6 @@ footer a {
     width: 1440px;
     display: flex;
     justify-content: space-between;
-    padding: 0 20px;
     box-sizing: content-box;
     padding: 0 20px;
 }

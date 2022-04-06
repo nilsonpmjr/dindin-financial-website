@@ -8,11 +8,10 @@ main * {
 } */
 
 .cabecalho {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
+    display: block;
     justify-content: space-evenly;
-
+    margin: 95px 83px;
+    margin-top: 198px;
 }
 
 .cabecalho h1 {
@@ -33,4 +32,67 @@ main * {
     margin-bottom: 30px;
     display: flex;
     flex-wrap: wrap;
+}
+
+.corpo hr {
+    border: 1px solid;
+    margin: 100px 83px;
+}
+
+.corpo {
+    margin: 30px 83px;
+}
+
+.corpo article {
+    display: flex;
+    flex-direction: row;
+}
+
+article .column {
+    display: flex;
+    flex-direction: column;
+    margin: 53px;
+}
+
+article img {
+    max-width: 380px;
+    display: block;
+}
+
+article h3 {
+    font-size: 35px;
+    color: #FF4081;
+    font-weight: 700;
+    line-height: 40px;
+    display: flex;
+    flex: wrap;
+    margin-bottom: 37px;
+}
+
+article p {
+    font-size: 18px;
+    color: #000;
+    font-weight: 300;
+    line-height: 21px;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 66px;
+}
+
+article a {
+    font-size: 20px;
+    color: #FFF;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: center;
+    text-decoration: none;
+    padding: 13px 9px 0 0;
+    background-color: #419288;
+    max-width: 233px;
+    height: 51px;
+    border-radius: 62px;
+}
+
+.corpo:last-child {
+    margin-bottom: 411px;
 }
